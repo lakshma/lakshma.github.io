@@ -8,6 +8,9 @@ permalink:        pretty
 # Setup
 title:            lakshma.github.io
 tagline:          a personal site
+pages_list:       About: '/about'
+                  Archive: '/archive'
+                  Feed: '/atom.xml'
 url:              http://getpoole.com
 paginate:         1
 baseurl:          /
