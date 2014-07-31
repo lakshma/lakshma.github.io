@@ -6,8 +6,8 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            Poole
-tagline:          The Jekyll Butler
+title:            lakshma.github.io
+tagline:          a personal site
 url:              http://getpoole.com
 paginate:         1
 baseurl:          /
