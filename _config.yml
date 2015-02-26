@@ -6,19 +6,19 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            lakshma.github.io
+title:            lakshmanav.github.io
 tagline:          a personal site
-url:              http://getpoole.com
+url:              
 paginate:         1
 baseurl:          /
 author:
-  name:           Mark Otto
-  url:            https://twitter.com/mdo
-  email:          markdotto@gmail.com
+  name:           Lakshmana Prabhu Venkatesan
+  url:            http://lakshmanav.github.io/
+  email:          
 
 # Custom vars
 version:          1.0.0
 github:
-  repo:           https://github.com/poole/poole
+  repo:           https://github.com/lakshmanav/
 
 pages_list:       {'Archive':'/archive'}
