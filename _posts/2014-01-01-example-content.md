@@ -19,6 +19,12 @@ int i  = (int)o; //now the runtime will walk the pointer link, fetch the data an
 {% endhighlight %}
 
 
+```javascript
+$(function(){
+  $('div').html('I am a div.');
+});
+```
+
 
 <div class="message">
   Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
