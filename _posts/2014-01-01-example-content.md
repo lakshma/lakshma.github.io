@@ -11,7 +11,7 @@ Boxing is the process of converting a value type to a reference type. Why would 
 
 {% highlight c# %}
 int i = 1; //i refers to a slot in stack memory which holds the value 1
-/* Boxing %/
+/* Boxing */
 object o = i; //o resides in stack and has a pointer to a memory slot in heap which hold the value 1
 /* Unboxing */
 int i  = (int)o; //now the runtime will walk the pointer link, fetch the data and typecast and stores the value in stack for i
