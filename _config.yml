@@ -6,8 +6,8 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            lakshmanav.github.io
-tagline:          a personal site
+title:            that's interesting
+tagline:          a technical writeup
 url:              
 paginate:         1
 baseurl:          /
