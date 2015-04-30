@@ -9,7 +9,6 @@ We all know that boxing and unboxing are expensive operations. Lets take it one 
 
 Boxing is the process of converting a value type to a reference type. Why would one do that ? Well, when you are not sure about the datatype of the value type in scenarios like dynamic, non generic collections etc. When you do such a thing, then the runtime has to allocate a memory slot in heap and copy the value of your value type.
 
-### Code
 {% highlight c# %}
 //Boxing
 int i = 1; //i refers to a slot in stack memory which holds the value 1
