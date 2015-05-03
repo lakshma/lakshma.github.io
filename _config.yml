@@ -6,8 +6,8 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            that's interesting
-tagline:          a technical writeup
+title:            layman terms
+tagline:          abstracting the complexity
 url:              
 paginate:         1
 baseurl:          /

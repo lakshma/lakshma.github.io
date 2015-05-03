@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Boxing & Unboxing
+title: C# Boxing & Unboxing
 ---
 
-We all know that boxing and unboxing are expensive operations. Lets take it one step deep,
+We all know that boxing and unboxing are expensive operations. Lets jump one step deep,
 
 Boxing is the process of converting a value type to a reference type. Why would one do that ? Well, when you are not sure about the datatype of the value type in scenarios like dynamic, non generic collections etc. When you do such a thing, then the runtime has to allocate a memory slot in heap and copy the value of your value type.
 
