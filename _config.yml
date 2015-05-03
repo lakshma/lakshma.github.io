@@ -6,8 +6,8 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            layman terms
-tagline:          abstracting the complexity
+title:            learn.
+tagline:          Just learn. Period.
 url:              
 paginate:         1
 baseurl:          /
