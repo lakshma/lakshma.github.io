@@ -28,7 +28,7 @@ Lets redesign,
 
 ![a stateless client server communication]({{ site.url }}/img/stateless.png)
 
-Just imagine the computational power we have now. Most of the requests don't even need to computed by the server. On top of it we have a elastic web layer which can scale on 
+Just imagine the computational power we have now. Most of the requests don't even need to computed by the server. On top of it we have a _elastic_ web layer which can scale on 
 demand. **_Statelessness_** is one of the core constraints of being **_RESTFul_**.
 
 
