@@ -32,5 +32,8 @@ Just imagine the computational power we have now. Most of the requests don't eve
 for caching and adds a huge performance gain. On top of it we have an _elastic_ web layer which can scale on demand. **_Statelessness_** is one of the core constraints of 
 being **_RESTFul_**. Lets embrace it.
 
+> Having said so, please keep in mind that we are strictly stateless only from the perspective of server. We didn't offload the state to client either. What we essentially 
+have done is made the client server communication stateless.
+
 
 
