@@ -28,8 +28,9 @@ Lets redesign,
 
 ![a stateless client server communication]({{ site.url }}/img/stateless.png)
 
-Just imagine the computational power we have now. Most of the requests don't even need to computed by the server. On top of it we have a _elastic_ web layer which can scale on 
-demand. 5 + 1 = 6 is idempotent which is the right candidate for caching. **_Statelessness_** is one of the core constraints of being **_RESTFul_**.
+Just imagine the computational power we have now. Most of the requests don't even need to computed by the server, we have a cache, 5 + 1 = 6 is idempotent which is the right candidate 
+for caching and adds a huge performance gain. On top of it we have an _elastic_ web layer which can scale on demand. **_Statelessness_** is one of the core constraints of 
+being **_RESTFul_**. Lets embrace it.
 
 
 
