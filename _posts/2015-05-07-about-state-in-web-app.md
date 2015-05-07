@@ -11,5 +11,17 @@ need not be the case always. Not all computer programs are stateful, Lets have l
 
 ![a stateful client server communication]({{ site.url }}/img/stateful.png)
 
+In the above scenario, client needs to remember (or) store the value of 'a' for every client, so that it can generate the right output. What problems can server face in this 
+case,
+
+* What happens when client base grows and the request rate is high enough ? We decide to scale the servers by adding couple more server instances and have a load balancer
+upfront. What happens now ? clients state information is now spread across server boxes. This won't work now as load balancer would forward client requests to random server
+ boxes based on demand and availability. Lets get matured. There is a solution to it,
+ 
+If we host a database server in the network which all the server boxes can access, we can get around this problem. Are we ok now ? Wait
+
+Did you realize that by doing so, we introduced a **_single point of failure_** in this architecture ? Indeed, we did.
+
+
 
 
