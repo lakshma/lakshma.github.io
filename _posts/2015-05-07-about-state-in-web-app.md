@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Role of state in web apps
+title: State(less/ful)ness in web apps
 ---
 
 What is state ? In the world of computer science, state is a technical term for all the stored information, at a given instant in time. Output of a computer program 
@@ -11,17 +11,25 @@ need not be the case always. Not all computer programs are stateful, Lets have l
 
 ![a stateful client server communication]({{ site.url }}/img/stateful.png)
 
-In the above scenario, client needs to remember (or) store the value of 'a' for every client, so that it can generate the right output. What problems can server face in this 
+In the above scenario, server needs to remember (or) store the value of 'a' for every client, so that it can generate the right output. What problems can server face in this 
 case,
 
 * What happens when client base grows and the request rate is high enough ? We decide to scale the servers by adding couple more server instances and have a load balancer
-upfront. What happens now ? clients state information is now spread across server boxes. This won't work now as load balancer would forward client requests to random server
- boxes based on demand and availability. Lets get matured. There is a solution to it,
+upfront. What happens now ? clients state information is now spread across server boxes. This model won't work now. As load balancer forwards client requests to random server
+ boxes based on demand and availability, server boxes cant always respond. Lets get matured. There is a solution to it,
  
-If we host a database server in the network which all the server boxes can access, we can get around this problem. Are we ok now ? Wait
+If we host a database server in the network which all the server boxes can access, we can get around this problem. Great. Are we ok now ? Wait
 
-Did you realize that by doing so, we introduced a **_single point of failure_** in this architecture ? Indeed, we did.
+* Did you realize that by doing so, we introduced a **_single point of failure_** in this architecture ? Indeed, we did.
+* Shall we improve the performance by introducing **_caching_** and offloading the requests to cache if available ? Not at all. Cache & State doesn't go well. When you have a state 
+you can't cache. To be able to cache, the fundamental requirement is that thing to be _idempotent_.
 
+Lets redesign,
+
+![a stateless client server communication]({{ site.url }}/img/stateless.png)
+
+Just imagine the computational power we have now. Most of the requests don't even need to computed by the server. On top of it we have a elastic web layer which can scale on 
+demand. **_Statelessness_** is one of the core constraints of being **_RESTFul_**.
 
 
 
