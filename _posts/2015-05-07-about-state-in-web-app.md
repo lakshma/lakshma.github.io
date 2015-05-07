@@ -21,8 +21,8 @@ upfront. What happens now ? clients state information is now spread across serve
 If we host a database server in the network which all the server boxes can access, we can get around this problem. Great. Are we ok now ? Wait
 
 * Did you realize that by doing so, we introduced a **_single point of failure_** in this architecture ? Indeed, we did.
-* Shall we improve the performance by introducing **_caching_** and offloading the requests to cache if available ? Not at all. Cache & State doesn't go well. When you have a state 
-you can't cache. To be able to cache, the fundamental requirement is that thing to be _idempotent_.
+* Shall we improve the performance by introducing **_caching_** and offloading the requests to cache if available ? Not at all. Cache & State don't go hand in hand. When you 
+have a state you can't cache. To be able to cache, the fundamental requirement is that thing to be _idempotent_.
 
 Lets redesign,
 
