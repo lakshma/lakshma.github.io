@@ -5,7 +5,7 @@ layout: blog
 <div class="blog-post">
   <h1 class="blog-post-title">{{ page.title }}</h1>
   <p>
-	  <span class="blog-post-meta glyphicon glyphicon glyphicon-calendar" aria-hidden="true"></span> {{ page.date }}
+	  <span class="blog-post-meta glyphicon glyphicon glyphicon-calendar" aria-hidden="true"></span> {{ page.date | date: "%B %e, %Y" }}
 	</p>
   {{ content }}
 </div>
