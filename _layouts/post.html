@@ -2,10 +2,10 @@
 layout: blog
 ---
 
-<div class="post">
-  <h1 class="post-title">{{ page.title }}</h1>
+<div class="blog-post">
+  <h1 class="blog-post-title">{{ page.title }}</h1>
   <p>
-	  <span class="post-date glyphicon glyphicon glyphicon-calendar" aria-hidden="true"></span> {{ post.date | date_to_string }}
+	  <span class="post-date glyphicon glyphicon glyphicon-calendar" aria-hidden="true"></span> {{ post.date | date: "%B %e, %Y" }}
 	</p>
   {{ content }}
 </div>
