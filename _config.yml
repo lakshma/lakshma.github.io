@@ -6,8 +6,8 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            
-tagline:          Lakshmana Prabhu Venkatesan @ lakshmanav | Coder, Blogger
+title:            Lakshmana Prabhu Venkatesan @ lakshmanav | Coder, Blogger
+tagline:          
 url:              
 paginate:         1
 baseurl:          /
