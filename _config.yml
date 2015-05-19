@@ -1,7 +1,7 @@
 # Dependencies
 markdown:         rdiscount
 pandoc:
-   extensions: [simple_tables, multiline_tables]
+   extensions: [multiline_tables]
 pygments:         true
 
 # Permalinks
