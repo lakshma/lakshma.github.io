@@ -1,6 +1,6 @@
 ---
 layout: post
-title: What is SOLID oop design principle all about ?
+title: What is SOLID (an oop design principle) all about ?
 ---
 
 Why Design Principle ? Design principles are all about providing guidelines for building healthy software. It's like saying "an apple in a day keeps the doctor away".
