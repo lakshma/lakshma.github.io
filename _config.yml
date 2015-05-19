@@ -1,8 +1,7 @@
 # Dependencies
-markdown:         pandoc
+markdown:         rdiscount
 pandoc:
-  extensions:
-    - pipe_tables
+   extensions: [pipe_tables]
 pygments:         true
 
 # Permalinks
