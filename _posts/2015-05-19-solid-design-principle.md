@@ -8,6 +8,7 @@ Saying so, is not the only way to live, it is rather a guideline to live a healt
 software.  
 
 **S** Single Responsibility Principle
+
 : 	Identifying classes based on responsibilities in the context of current application
 **O** Open-Closed Principle
 :	Identifying abstractions
