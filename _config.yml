@@ -1,7 +1,8 @@
 # Dependencies
 markdown:         pandoc
 pandoc:
-  extensions: [pipe_tables]
+  extensions:
+    - pipe_tables
 pygments:         true
 
 # Permalinks
