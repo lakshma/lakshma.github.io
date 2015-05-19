@@ -13,3 +13,5 @@ software.
 **L**	Liskov substitution principle   	Review implementations that don't really fit the abstraction, rather are look alikes. Create specific abstractions or classes based on the need.
 **I**	Interface Segregation Principle 	Review abstractions & improve by breaking them down to more specific abstractions based on the need.
 **D**	Dependency *Inversion* Principle	Implement class dependencies or relations such that classes depend on abstractions and not concrete implementations.
+
+
