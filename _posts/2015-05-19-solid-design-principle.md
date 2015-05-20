@@ -7,3 +7,4 @@ Why Design Principle ? Design principles are all about providing guidelines for 
 Saying so, is not the only way to live, it is rather a guideline to live a healthy life. In a similar way, SOLID (an acronym) is an object oriented design principle to build a healthy
 software.  
 
+<<More content on the way>>
