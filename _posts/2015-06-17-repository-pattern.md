@@ -6,7 +6,7 @@ title: Generic repository pattern, a C# implementation
 Inspired by Martin flower's [repository](http://martinfowler.com/eaaCatalog/repository.html) a layer which mediates domain layer and the persistence 
 layer and there by improves testability and provides a possibility to swap persistence choices.
 
-```c#
+```cs
 /// <summary>
     /// Generic interface for an entity repository
     /// </summary>
