@@ -6,7 +6,9 @@ title: Generic repository pattern, a C# implementation
 Inspired by Martin flower's [repository](http://martinfowler.com/eaaCatalog/repository.html) a layer which mediates domain layer and the persistence 
 layer and there by improves testability and provides a possibility to swap persistence choices.
 
-{% highlight csharp %}
+{% gist bf650b70f7230b5fdeb2 %}
+
+```csharp
 	/// <summary>
     /// Generic interface for an entity repository
     /// </summary>
@@ -76,6 +78,6 @@ layer and there by improves testability and provides a possibility to swap persi
         /// <param name="query">a query implementation which can evaluate the list of matching entities</param>
         /// <returns>total count of matching items</returns>
         Task<double> CountAsync(IEntityQuery<TId, TEntity> query);
-{% endhighlight %}
+```
 
 For more details, you can always check out [the implementation](https://github.com/lakshmanav/repository/)
